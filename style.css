@@ -371,9 +371,8 @@ iframe {
     width: 100%;
     height: auto;
     min-height: 30px;
-    padding: 6px 8px;
-    white-space: nowrap;
-    overflow-wrap: hidden;
+    padding: 6px 5px;
+    overflow: hidden;
   }
 
   .name p,
@@ -381,7 +380,9 @@ iframe {
     font-size: 70%;
     white-space: nowrap;
     margin: 0;
-    line-height: 1.2;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .date {

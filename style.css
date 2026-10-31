@@ -372,13 +372,16 @@ iframe {
     height: auto;
     min-height: 30px;
     padding: 6px 8px;
-    white-space: normal;
-    overflow-wrap: anywhere;
+    white-space: nowrap;
+    overflow-wrap: hidden;
   }
 
   .name p,
   .date p {
-    font-size: 50%;
+    font-size: 12px;
+    white-space: nowrap;
+    margin: 0;
+    line-height: 1.2;
   }
 
   .date {

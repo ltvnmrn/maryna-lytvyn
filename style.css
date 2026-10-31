@@ -378,7 +378,7 @@ iframe {
   .name p,
   .date p {
     font-size: 70%;
-    white-space: nowrap;
+    white-space: normal;
     margin: 0;
     max-width: 100%;
     overflow: hidden;

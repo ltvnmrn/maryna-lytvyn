@@ -376,6 +376,11 @@ iframe {
     overflow-wrap: anywhere;
   }
 
+  name p,
+  date p {
+    font-size: 50%;
+  }
+
   .date {
     justify-content: flex-start;
     text-align: left;

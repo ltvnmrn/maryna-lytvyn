@@ -378,7 +378,7 @@ iframe {
 
   .name p,
   .date p {
-    font-size: 70%;
+    font-size: 12px;
     white-space: nowrap;
     margin: 0;
     line-height: 1.2;

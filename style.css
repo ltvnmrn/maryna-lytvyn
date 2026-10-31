@@ -370,19 +370,11 @@ iframe {
   .date {
     width: 100%;
     height: auto;
-    min-height: 30px;
-    padding: 6px 5px;
-    overflow: hidden;
   }
 
   .name p,
   .date p {
     font-size: 70%;
-    white-space: normal;
-    margin: 0;
-    max-width: 100%;
-    overflow: hidden;
-    text-overflow: ellipsis;
   }
 
   .date {
